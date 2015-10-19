@@ -2,18 +2,21 @@
  * Author:			Devin Smoot
  * Class: 			COMSC 1033
  * Date:			2015-10-19
- * Pg. 100
+ * Book location:	Pg. 100
  */
+//Import Scanner utility
 import java.util.Scanner;
 public class Zodiak_class {
 	public static void main(String[] args) {
+		//Initialize scanner
 		Scanner input = new Scanner(System.in);
-		
+		//Take user input for year of birth
 		System.out.print("Enter the year you were born: ");
 		int year = input.nextInt();
-		
+		//Display output of birth year
 		System.out.print("\nYou were born in the year of the ");
-		
+		//Work the problem year % 12 and find the remainder
+		//display a case based on the remainder to finish the sentence
 		switch (year % 12){
 		case 0: System.out.println("monkey."); break;
 		case 1: System.out.println("rooster."); break;
