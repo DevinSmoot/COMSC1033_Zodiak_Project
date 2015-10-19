@@ -37,12 +37,12 @@ public class Zodiak_class {
 		case 10: System.out.println("horse."); break;
 		case 11: System.out.println("sheep.");
 		}
-		//display astrological sign based on month and day
+		//display Zodiak sign based on month and day
 		switch (month){
 		case 1:	if (day<20) {System.out.println("Capricorn."); 	break;}
 				else 		{System.out.println("Aquarius."); 	break;}
 		case 2:	if (day<19)	{System.out.println("Aquarius."); 	break;}
-				else		{	System.out.println("Pices."); 	break;}
+				else		{System.out.println("Pices."); 		break;}
 		case 3:	if (day<21)	{System.out.println("Pices."); 		break;}
 				else		{System.out.println("Aries."); 		break;}
 		case 4:	if (day<20)	{System.out.println("Aries."); 		break;}
@@ -63,8 +63,6 @@ public class Zodiak_class {
 				else		{System.out.println("Sagittarius.");break;}
 		case 12: if (day<22){System.out.println("Sagittarius.");	  }
 				else		{System.out.println("Capricorn."); 		  }
-
-		
 		}
 	}
 }
